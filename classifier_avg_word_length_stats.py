@@ -21,7 +21,7 @@ def read_and_print_min_max_with_filter(file_path, column_name, filter_column, fi
         if max_value > 200:
             print(f"Max value is greater than 200: \n{max_value}")
     else:
-        print(f"\nNo rows after applying the filter.")
+        print("\nNo rows after applying the filter.")
 
 # Specify the file paths for your CSV files
 file_path1 = './data/train_stratify_avg_word_length.csv'

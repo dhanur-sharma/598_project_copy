@@ -22,7 +22,7 @@ def read_and_print_min_max_with_filter(file_path, column_name, filter_column, fi
         print(f"Mean value in column '{column_name}': {mean_value}")
         print(f"Standard deviation in column '{column_name}': {filtered_df[column_name].std()}")
     else:
-        print(f"\nNo rows after applying the filter.")
+        print("\nNo rows after applying the filter.")
 
 # Specify the file paths for your CSV files
 file_path1 = './data/train_stratify_avg_sentence_length.csv'
